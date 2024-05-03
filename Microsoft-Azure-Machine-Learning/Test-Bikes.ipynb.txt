@@ -110,6 +110,7 @@ if response.status_code == 200:
     y = response.json()
 
     print("Predictions:") 
+# On coursera the key was result but the correct one is Results
     if "Results" in y:
      for i in range(len(x)): 
         print (" Day: {}. Predicted rentals: {}".format(i+1, max(0, round(y["Results"][i])))) 
