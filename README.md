@@ -19,6 +19,6 @@ The original code had several issues that prevented it from working correctly:
 
 3. Response Handling: The original code checked for a `result` key in the response, but the correct key is `Results`. This change ensures the predictions are retrieved correctly.
 
-### 2. Diabetes Dataset
+# 2. Diabetes Dataset
 
 The `diabetes_datasets_correct.csv` file has been uploaded to replace the now-invalid URL for the Diabetes Dataset used in Module 3, Exercise Part 3: Exploration Data. This file is essential for completing the exercise as intended.
